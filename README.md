@@ -32,7 +32,7 @@ cv2.imshow('nature',img)
 cv2.waitKey(0)
 
 #GREY IMAGE
-grey = cv2.imread('flower.jpg',-1)
+grey = cv2.imread('flower.jpg',0)
 cv2.imshow('nature',gray)
 cv2.waitKey(0)
 
@@ -49,13 +49,22 @@ print(img.shape)
 
 # To access rows and columns
 
-
+import random
+for i in range(200):
+    for j in range(img.shape[1]):
+        img[i][j] = [random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2.imshow('flower',img)
+cv2.waitKey(0)
 
 
 
 # To cut and paste portion of image
 
-
+img1 = cv2.imread('flower.jpg',1)
+tag = img1[300:400:,300:400]
+img1[50:150,50:150] = tag
+cv2.imshow('flower',img1)
+cv2.waitKey(0)
 
 
 
@@ -71,24 +80,28 @@ print(img.shape)
 
 
 ![output](./img/o1.png)
-
+### gray image
+![output](./o3.png)
 
 ### ii)Write the image
 
-<br>
+<br>![output](./o3.png)
 <br>
 
 ### iii)Shape of the Image
 
 <br>
+![output](./img/o3.png)
 <br>
 
 ### iv)Access rows and columns
 <br>
+![output](./img/o4.png)
 <br>
 
 ### v)Cut and paste portion of image
 <br>
+![output](./img/o5.png)
 <br>
 
 ## Result:
