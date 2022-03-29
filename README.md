@@ -81,28 +81,28 @@ cv2.waitKey(0)
 
 ![output](./img/o1.png)
 ### gray image
-![output](./o3.png)
+![output](./o2.png)
 
 ### ii)Write the image
 
-<br>![output](./o3.png)
-<br>
+![output](./o3.png)
+
 
 ### iii)Shape of the Image
 
-<br>
+
 ![output](./o3.png)
-<br>
+
 
 ### iv)Access rows and columns
-<br>
+
 ![output](./o4.png)
-<br>
+
 
 ### v)Cut and paste portion of image
-<br>
+
 ![output](./o5.png)
-<br>
+
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
