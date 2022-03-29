@@ -20,21 +20,30 @@ Use imwrite(filename, image) to write the image.
 End the program and close the output image windows.
 ## Program:
 ```python
-# Developed By:
-# Register Number
+# Developed By:KUMARAVEL V
+# Register Number:212220230027
+
+#import the library
+import cv2
+
 # To Read,display the image
+img = cv2.imread('flower.jpg',1)
+cv2.imshow('nature',img)
+cv2.waitKey(0)
 
-
-
+#GREY IMAGE
+grey = cv2.imread('flower.jpg',-1)
+cv2.imshow('nature',gray)
+cv2.waitKey(0)
 
 # To write the image
 
-
+cv2.imwrite('ou2.jpg',grey)
 
 
 
 # Find the shape of the Image
-
+print(img.shape)
 
 
 
@@ -60,8 +69,9 @@ End the program and close the output image windows.
 
 ### i) Read and display the image
 
-<br>
-<br>
+
+![output](./img/o1.png)
+
 
 ### ii)Write the image
 
