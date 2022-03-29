@@ -91,17 +91,17 @@ cv2.waitKey(0)
 ### iii)Shape of the Image
 
 <br>
-![output](./img/o3.png)
+![output](./o3.png)
 <br>
 
 ### iv)Access rows and columns
 <br>
-![output](./img/o4.png)
+![output](./o4.png)
 <br>
 
 ### v)Cut and paste portion of image
 <br>
-![output](./img/o5.png)
+![output](./o5.png)
 <br>
 
 ## Result:
