@@ -78,8 +78,7 @@ cv2.waitKey(0)
 
 ### i) Read and display the image
 
-
-![output](./img/o1.png)
+![o1](https://user-images.githubusercontent.com/75235334/173748125-b32c4ac9-eea9-4000-adec-fa1f45fc824f.png)
 ### gray image
 ![output](./o2.png)
 
