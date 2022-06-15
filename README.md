@@ -80,7 +80,7 @@ cv2.waitKey(0)
 
 ![o1](https://user-images.githubusercontent.com/75235334/173748125-b32c4ac9-eea9-4000-adec-fa1f45fc824f.png)
 ### gray image
-![output](./o2.png)
+![o2](https://user-images.githubusercontent.com/75235334/173748435-5aefa349-13fa-46a6-b22f-5397597f4054.png)
 
 ### ii)Write the image
 
